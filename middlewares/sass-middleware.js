@@ -23,6 +23,11 @@ module.exports = function(BaseDir) {
         
         return new Promise(function(resolve,reject) {
 
+            if(f.trim() == "") {
+
+                resolve("");
+            }
+
             require('node-sass').render({ data:f}, function(err, result) {
 
                 if(err) {
