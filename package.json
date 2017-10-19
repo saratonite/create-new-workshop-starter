@@ -1,0 +1,25 @@
+{
+  "name": "goodies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bs-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sample": "lite-server sample"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "less": "^3.0.0-alpha.3",
+    "lite-server": "^2.3.0",
+    "node-sass": "^4.5.3",
+    "npm": "^5.5.1"
+  },
+  "dependencies": {
+
+  }
+}
