@@ -6,7 +6,6 @@ module.exports = function(BaseDir) {
     var babelMiddleware = function (req, res, next) {
 
         var parsed = require("url").parse(req.url);
-        console.log(parsed);
         if (parsed.pathname.match(/\.es6$/)) {
 
             return babel(BaseDir+parsed.pathname)
